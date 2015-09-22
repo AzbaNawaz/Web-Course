@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title="Photo Browser">
+
+<style>
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+.one {
+  max:width 100%
+  height:auto
+  display: block;
+}
+.two {
+  display: none;
+}
+.three {
+  display: none;
+}
+.four {
+  display: none;
+}
+.five {
+  display: none;
+}
+#toggle:checked +  .one + .two{
+  display: block;
+}
+
+
+
+
+</style>
+
+</head>
+
+<body>
+<h1>This is my Photo Browser</h1>
+
+ <div>
+ <img src="left.jpg" alt="" align="left" />
+ <label for=toggle><img src="right.jpg" alt="" align="right"/></label>
+ <input type=checkbox id=toggle hidden />
+ <img class="one" src="no. 1.jpg" alt="" align="center" />
+ <img class="two" src="no. 2.jpg" alt="" align="center" />
+ <img class="three" src="no. 3.jpg" alt="" align="center" />
+ <img class="four" src="no. 4.jpg" alt="" align="center" />
+ <img class="five" src="no. 5.jpg" alt="" align="center" />
+
+
+ </div>
+
+
+
+</body>
+</html>
